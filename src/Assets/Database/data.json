@@ -1,0 +1,373 @@
+{
+  "maincategory": [
+    {
+      "name": "female",
+      "id": "9f02"
+    },
+    {
+      "name": "kids",
+      "id": "195c"
+    },
+    {
+      "id": "883c",
+      "name": "male"
+    }
+  ],
+  "subcategory": [
+    {
+      "id": "525e",
+      "name": "jean"
+    },
+    {
+      "name": "trouser",
+      "id": "6018"
+    },
+    {
+      "id": "6703",
+      "name": "tshirt"
+    }
+  ],
+  "brand": [
+    {
+      "name": "nike",
+      "id": "af93"
+    },
+    {
+      "id": "a9c6",
+      "name": "puma"
+    },
+    {
+      "id": "2ea6",
+      "name": "adidas"
+    }
+  ],
+  "product": [
+    {
+      "id": "7354",
+      "name": "male slim fit jean",
+      "maincategory": "male",
+      "subcategory": "jean",
+      "brand": "adidas",
+      "color": "black",
+      "size": "32",
+      "baseprice": 34000,
+      "discount": 50,
+      "finalprice": 17000,
+      "stock": "In Stock",
+      "description": "<p>wewe</p>",
+      "pic1": "pic1.jpg",
+      "pic2": "pic1.jpg",
+      "pic3": "pic1.jpg",
+      "pic4": "pic1.jpg"
+    },
+    {
+      "id": "9bd0",
+      "name": "kids trouser",
+      "maincategory": "kids",
+      "subcategory": "trouser",
+      "brand": "puma",
+      "color": "blue",
+      "size": "12",
+      "baseprice": 10000,
+      "discount": 30,
+      "finalprice": 7000,
+      "stock": "In Stock",
+      "description": "<p>this is a sample paragraph.this is a sample paragraph.</p>",
+      "pic1": "pic1.jpg",
+      "pic2": "pic1.jpg",
+      "pic3": "pic1.jpg",
+      "pic4": "pic1.jpg"
+    },
+    {
+      "id": "5fbd",
+      "name": "female slim fit jean",
+      "maincategory": "female",
+      "subcategory": "jean",
+      "brand": "nike",
+      "color": "red",
+      "size": "32",
+      "baseprice": 8000,
+      "discount": 35,
+      "finalprice": 5200,
+      "stock": "In Stock",
+      "description": "<p>for the females</p>",
+      "pic1": "pic1.jpg",
+      "pic2": "pic1.jpg",
+      "pic3": "pic1.jpg",
+      "pic4": "pic1.jpg"
+    },
+    {
+      "id": "0a36",
+      "name": "male tshirt",
+      "maincategory": "male",
+      "subcategory": "tshirt",
+      "brand": "adidas",
+      "color": "voilet",
+      "size": "30",
+      "baseprice": 4000,
+      "discount": 20,
+      "finalprice": 3200,
+      "stock": "In Stock",
+      "description": "<p>stylish tshirt for men</p>",
+      "pic1": "pic1.jpg",
+      "pic2": "pic1.jpg",
+      "pic3": "pic1.jpg",
+      "pic4": "pic1.jpg"
+    },
+    {
+      "id": "58e5",
+      "name": "female tshirt",
+      "maincategory": "female",
+      "subcategory": "tshirt",
+      "brand": "puma",
+      "color": "yellow",
+      "size": "28",
+      "baseprice": 6000,
+      "discount": 30,
+      "finalprice": 4200,
+      "stock": "In Stock",
+      "description": "<p>tshirt for women</p>",
+      "pic1": "pic1.jpg",
+      "pic2": "pic1.jpg",
+      "pic3": "pic1.jpg",
+      "pic4": "pic1.jpg"
+    }
+  ],
+  "user": [
+    {
+      "id": "af48",
+      "name": "hemant",
+      "username": "hemant",
+      "email": "hemantchouhan9998@gmail.com",
+      "phone": "9773958530",
+      "password": "hemant@123",
+      "role": "Buyer",
+      "address": "Subhash colony Ballabgarh, Faridabad (Haryana)",
+      "city": "Faridabad",
+      "state": "Haryana",
+      "pin": "121004",
+      "pic": "pic1.jpg"
+    },
+    {
+      "id": "79fb",
+      "name": "pravesh",
+      "username": "pravesh",
+      "email": "pravesh@gmail.com",
+      "phone": "8053516162",
+      "password": "pravesh@123",
+      "role": "Admin",
+      "pic": "pic1.jpg"
+    }
+  ],
+  "cart": [
+    {
+      "id": "7b0e",
+      "productid": "9bd0",
+      "userid": "79fb",
+      "name": "kids trouser",
+      "brand": "puma",
+      "color": "blue",
+      "size": "12",
+      "price": 7000,
+      "qty": 9,
+      "total": 63000,
+      "pic": "pic1.jpg"
+    },
+    {
+      "id": "3375",
+      "productid": "0a36",
+      "userid": "79fb",
+      "name": "male tshirt",
+      "brand": "adidas",
+      "color": "voilet",
+      "size": "30",
+      "price": 3200,
+      "qty": 11,
+      "total": 35200,
+      "pic": "pic1.jpg"
+    },
+    {
+      "id": "c5db",
+      "productid": "7354",
+      "userid": "79fb",
+      "name": "male slim fit jean",
+      "brand": "adidas",
+      "color": "black",
+      "size": "32",
+      "price": 17000,
+      "qty": 4,
+      "total": 68000,
+      "pic": "pic1.jpg"
+    },
+    {
+      "id": "e835",
+      "productid": "7354",
+      "userid": "af48",
+      "name": "male tshirt",
+      "brand": "adidas",
+      "color": "voilet",
+      "size": "30",
+      "price": 3200,
+      "qty": 1,
+      "total": 3200,
+      "pic": "pic1.jpg"
+    },
+    {
+      "id": "dc6b",
+      "productid": "9bd0",
+      "userid": "af48",
+      "name": "kids trouser",
+      "brand": "puma",
+      "color": "blue",
+      "size": "12",
+      "price": 7000,
+      "qty": 2,
+      "total": 14000,
+      "pic": "pic1.jpg"
+    }
+  ],
+  "wishlist": [
+    {
+      "id": "e43b",
+      "productid": "0a36",
+      "userid": "af48",
+      "name": "male tshirt",
+      "brand": "adidas",
+      "color": "voilet",
+      "size": "30",
+      "price": 3200,
+      "pic": "pic1.jpg"
+    },
+    {
+      "id": "4e7a",
+      "productid": "58e5",
+      "userid": "af48",
+      "name": "female tshirt",
+      "brand": "puma",
+      "color": "yellow",
+      "size": "28",
+      "price": 4200,
+      "pic": "pic1.jpg"
+    }
+  ],
+  "checkout": [
+    {
+      "id": "a4a8",
+      "userid": "af48",
+      "orderStatus": "Order is Placed",
+      "paymentStatus": "pending",
+      "paymentMode": "COD",
+      "subtotal": 17200,
+      "shipping": 0,
+      "total": 17200,
+      "date": "2024-02-26T14:50:27.552Z",
+      "product": [
+        {
+          "id": "dc6b",
+          "productid": "9bd0",
+          "userid": "af48",
+          "name": "kids trouser",
+          "brand": "puma",
+          "color": "blue",
+          "size": "12",
+          "price": 7000,
+          "qty": 2,
+          "total": 14000,
+          "pic": "pic1.jpg"
+        },
+        {
+          "id": "e835",
+          "productid": "7354",
+          "userid": "af48",
+          "name": "male tshirt",
+          "brand": "adidas",
+          "color": "voilet",
+          "size": "30",
+          "price": 3200,
+          "qty": 1,
+          "total": 3200,
+          "pic": "pic1.jpg"
+        }
+      ]
+    },
+    {
+      "id": "eb05",
+      "userid": "af48",
+      "orderStatus": "Shipped",
+      "paymentStatus": "",
+      "paymentMode": "COD",
+      "subtotal": 17200,
+      "shipping": 0,
+      "total": 17200,
+      "date": "2024-02-29T05:23:59.851Z",
+      "product": [
+        {
+          "id": "dc6b",
+          "productid": "9bd0",
+          "userid": "af48",
+          "name": "kids trouser",
+          "brand": "puma",
+          "color": "blue",
+          "size": "12",
+          "price": 7000,
+          "qty": 2,
+          "total": 14000,
+          "pic": "pic1.jpg"
+        },
+        {
+          "id": "e835",
+          "productid": "7354",
+          "userid": "af48",
+          "name": "male tshirt",
+          "brand": "adidas",
+          "color": "voilet",
+          "size": "30",
+          "price": 3200,
+          "qty": 1,
+          "total": 3200,
+          "pic": "pic1.jpg"
+        }
+      ]
+    }
+  ],
+  "newsletter": [
+    {
+      "id": "ab3a",
+      "email": "hemantchouhan9998@gmail.com"
+    },
+    {
+      "id": "78cd",
+      "email": "chemant1110@gmail.com"
+    }
+  ],
+  "contactus": [
+    {
+      "id": "f1c4",
+      "name": "hemant",
+      "email": "hemantchouhan9998@gmail.com",
+      "phone": "9773958530",
+      "subject": "for just checking",
+      "message": "hii my name is hemant",
+      "date": "2024-02-29T08:21:27.378Z",
+      "active": true
+    }
+  ],
+  "testimonial": [
+    {
+      "id": "ec24",
+      "name": "pineapple",
+      "profession": "web developer",
+      "rating": "5",
+      "pic": "pic1.jpg",
+      "message": "ssss"
+    },
+    {
+      "id": "2328",
+      "name": "men",
+      "profession": "web developer",
+      "rating": "5",
+      "pic": "pic1.jpg",
+      "message": "aaaa"
+    }
+  ]
+}
